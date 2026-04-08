@@ -59,7 +59,7 @@ strong {
  grid-column: 1/2;
  grid-row: 1/4;
 }
-
+align
 #cardapio {
   grid-column: 2/3;
   grid-row: 2/3;
@@ -74,7 +74,8 @@ strong {
 
 /* EXERCÍCIO 3: cabeçalho da página */
 #cabecalho-pagina {
-
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #cabecalho-pagina h1 {
@@ -82,6 +83,8 @@ strong {
   font-size: 36px;
   color: #e90c0c;
   font-weight: normal;
+  text-align: center;
+  font-family: Ravie;
 }
 
 #cabecalho-pagina h2 {
@@ -89,6 +92,8 @@ strong {
   font-size: 24px;
   color: #333;
   font-weight: normal;
+  text-align: end;
+  font-family: verdana;
 }
 
 /* EXERCÍCIO 4: cada item do menu */
